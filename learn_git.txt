@@ -25,3 +25,39 @@ professionals use "initial commit" in the meassage section.
 to show who did what contribution we have to use: git log
 
 <<<this is just to see the changes>>> 
+
+
+to make new branch in the master branch,
+use:  git branch branch_name
+
+and to access the new branch, 
+use: git checkout branch_name
+
+
+
+to do adding into staging area and commit in one command
+use: git commit -am "meassage"
+
+
+whenever we move to back to the master branch from the dev branch(or the created branch) then the code added in the dev branch will disapper from he file...cause that is the whole point of version control system.
+
+
+to add the dev branch into the master branch, but to do that first we have to come back to the master branch.
+use: git merge branch_name
+
+
+
+to add this repo to the github(online host)
+use: git remote add origin https://github.com/Prabalranjan/Learning-GIT.git
+
+my name occured cause ive already loggin to my account and also enter my mail id in the git cmd.
+git remote add origin <then the github path>
+
+
+
+to check how many remote you have, basically show  how many files  uploaded. 
+use: git remote -v 
+
+
+if we want to push the dev branch into the  github repo
+use: git push origin dev
