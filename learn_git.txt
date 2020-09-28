@@ -1,0 +1,25 @@
+it is a version control system..
+to initialize the git, use:  git init
+
+to see the stutus of the repo(repository). it shows the commits  of the file. 
+use:  git status
+
+
+in git checkpoints are known as commit.
+
+
+in git before editing we have to take to file into the staging area and then we can commit. use:
+git add file_name
+
+
+to unstage from the staging area 
+use: git rm --cached file_name 
+
+
+
+to make commit in a file (checkpoint), we have to move the file to the staging area to commit area. 
+use: git commit -m "changin meassege"
+professionals use "initial commit" in the meassage section.
+
+
+ 
