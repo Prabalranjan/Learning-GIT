@@ -59,6 +59,7 @@ to check how many remote you have, basically show  how many files  uploaded.
 use: git remote -v 
 
 
+
 if we want to push the dev branch into the  github repo
 use: git push origin dev
 
@@ -68,3 +69,12 @@ use: git push origin dev
 whenever you make changes in the  local repo then use push command , doesn't matter you do it in master or dev vranch.
 use: git push
 it'll load a bit and then upload the code until the commited point.
+
+
+
+git fetch and git merge together same thing and called git pull.
+
+
+
+to get the changes of remote host into the local host 
+use: git pull
