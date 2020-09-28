@@ -22,4 +22,6 @@ use: git commit -m "changin meassege"
 professionals use "initial commit" in the meassage section.
 
 
- 
+to show who did what contribution we have to use: git log
+
+<<<this is just to see the changes>>> 
