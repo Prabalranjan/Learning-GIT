@@ -61,3 +61,10 @@ use: git remote -v
 
 if we want to push the dev branch into the  github repo
 use: git push origin dev
+
+
+
+
+whenever you make changes in the  local repo then use push command , doesn't matter you do it in master or dev vranch.
+use: git push
+it'll load a bit and then upload the code until the commited point.
